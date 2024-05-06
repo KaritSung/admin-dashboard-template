@@ -27,7 +27,7 @@ const options = {
 const donutData = {
   labels: ['HTTP Devices', 'HTTP Device Sensors', 'MQTT Devices', 'MQTT Device Sensors'],
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Value',
     data: [146, 290, 28, 28],
     backgroundColor: [
       'rgb(255, 99, 132)',
