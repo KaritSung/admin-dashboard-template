@@ -4,12 +4,16 @@
 
 :root {
   background-color: #EEF2FF;
+  overflow: hidden;
+}
+
+.body{
+  overflow: hidden;
 }
 
 .container{
   display: flex;
   height: 100vh;
-  width: 100vmax;
 }
 
 .menu{
@@ -22,10 +26,10 @@
 
 .content {
   flex: 2;
+  width: 100%;
   margin-left: 270px;
 }
 
 .inner-content{
-  display: flex;
   margin: 2rem 1rem 1rem 1rem;
 }

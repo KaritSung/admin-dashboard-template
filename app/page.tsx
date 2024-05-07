@@ -45,7 +45,7 @@ export default function Home() {
       <p className="text-xl font-semibold">Dashboard</p>
       <Stack direction={'row'} mt={3} width={'100%'} spacing={3}>
         {cardItem.map((item, index) => (
-          <Box key={index} bgcolor={'white'} width={'370px'}>
+          <Box key={index} bgcolor={'white'} width={'30%'}>
             <Box py={2} px={2} boxShadow={3}>
               <Typography color={'gray'}>{item.title1}</Typography>
               <Typography fontSize={'24px'} fontWeight={'500'}>{item.title2}</Typography>
@@ -78,6 +78,7 @@ export default function Home() {
           <Box width="100%" height="100%" py={2} px={2} display={'flex'} justifyContent={'center'} alignItems={'center'}>
             <Doughnut
               data={donutData}
+              options={options}
             ></Doughnut>
           </Box>
         </Box>
